@@ -1,0 +1,20 @@
+class pound:
+    value=1.0
+    color="gold"
+    num_edges=1
+    diameter=22.5
+    thickness=3.15
+    heads=True
+coin1=pound()
+print(type(coin1))
+print(coin1.value)
+print(coin1.color)
+coin1.color="greenish"
+print(coin1.color)
+coin2=pound()
+print(coin2.value)
+print(coin1.value)
+coin1.value="2.0"
+print(coin1.value)
+coin2=pound()
+print(coin2.value)
